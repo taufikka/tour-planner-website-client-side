@@ -1,8 +1,10 @@
 import React from 'react';
 import { Button, Card, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Service.css'
 const Service = props => {
-    const { name, image, description } = props.service;
+    const { _id, name, image, description } = props.service;
+    const url = `/service/${_id}`
     return (
         <div>
             <Col className='card box-shadow'>
@@ -12,9 +14,11 @@ const Service = props => {
                     <Card.Body>
                         <Card.Title className='my-2'>{name}</Card.Title>
                         <Card.Text className='text-secondary'>
-                            {description.slice(0, 90)}
+                            {description.slice(0, 95)}
                         </Card.Text>
-                        <Button className="my-2" variant="danger">Book Now</Button>
+                        <Link to={url}>
+                            <Button className="my-2" variant="danger">Book Now</Button>
+                        </Link>
                     </Card.Body>
                 </Card>
             </Col >
