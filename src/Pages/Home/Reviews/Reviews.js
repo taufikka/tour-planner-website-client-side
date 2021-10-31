@@ -5,6 +5,7 @@ import image1 from '../../../images/user1.jpg'
 import image2 from '../../../images/user3.jpg'
 import image3 from '../../../images/user2.jpg'
 
+// review section of clients
 const Reviews = () => {
     return (
         <div className='container my-4'>

@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# Travelo Tour Planner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My project site link: (https://tour-planner-e58a4.web.app/).
 
-## Available Scripts
+## Simple React Project
 
-In the project directory, you can run:
+In the project, I try to build MPA using react-router, context api, firebase for authentication, used css framework bootstrap for responsive site and mongodb and express for database.
 
-### `npm start`
+### React authentication and database
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+In the project, I try to authenticate users by google. I used firebase authentication approach. I also do private route authentication for specific page. Then i used node js, express js for server side and mongodb for database side.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Context api and Custom hook
 
-### `npm test`
+In the project, I used one custom hook for firebase authentication approaches. Then lastly i used alternative of custom hook, context api for whole app control. Context api used custom hooks data and handle all code easily from app.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### My project Concepts and features
 
-### `npm run build`
+I try to build a simple react MPA based on Travel Planner related information. In my project, Header section shows navigation of home,login first, then after login user logout, my booking, manage all booking and add new service will show. Header and Footer section is same for all pages.
+Body section will change depending on page switch. In home page, At first top section start with title and banner then there are some cards of tour services. When click any card book now button it will navigate to another page for more details and booking form. Details page is private route, after login user can show all details. Then in my booking  page, user will there booked service and they can cancel any services.In manage all booking page, it is mainly handle by page admins they can see all booked services and they can remove any service. Also In add new service page, it is also mainly handle by page admins they can add any new service in home page using form.Lastly for authentication login option here, user can use google for login  After user login their name will appear in header section. We used no fake data here. we directly used data from mongodb database. User when try to visit any page that does not exist site will show 404 error.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In future, I will try to add more features in site and update my MPA.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

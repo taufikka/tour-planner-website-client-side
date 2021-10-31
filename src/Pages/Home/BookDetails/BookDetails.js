@@ -19,9 +19,6 @@ const BookDetails = () => {
             .then(data => setServices(data))
     }, [])
 
-    // condition check existing service id with clicked service id
-    // const exactService = services.filter(service => service._id == id);
-    //console.log(exactService)
     const { register, handleSubmit, reset } = useForm();
 
     /* take input and send to server */
@@ -35,7 +32,7 @@ const BookDetails = () => {
                 }
             })
     };
-
+    // service book and service more details show
     return (
         <>
             <div className='row row-cols-1 row-cols-md-2 row-cols-lg-2 g-2'>

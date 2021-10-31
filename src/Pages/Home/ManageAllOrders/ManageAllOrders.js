@@ -10,6 +10,7 @@ const ManageAllOrders = () => {
             .then(data => setOrders(data))
     }, [deleted])
 
+    /* take input and send to server for delete */
     const handleDeleteOrder = (id) => {
         const proceed = window.confirm('Are you confirm to cancel booking?');
         if (proceed) {
@@ -28,7 +29,7 @@ const ManageAllOrders = () => {
         }
     }
 
-
+    // all service booked by clients show here
     return (
         <div className='container my-4 login-container'>
             <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2'>

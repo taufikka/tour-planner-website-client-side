@@ -6,6 +6,7 @@ const Services = () => {
     const [services, setServices] = useState([])
     const [loader, setLoader] = useState(false);
 
+    // all services load from database
     useEffect(() => {
         setLoader(true)
         fetch('https://nameless-journey-96860.herokuapp.com/tours')
@@ -15,7 +16,7 @@ const Services = () => {
     }, [])
 
 
-
+    // all services show card
     return (
         <div className='my-4'>
             <h4 className='my-5 fw-bolder text-center border border-danger border-3 w-50 mx-auto p-2'>Activities to help you explore Singapore</h4>

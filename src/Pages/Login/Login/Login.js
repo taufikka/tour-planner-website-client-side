@@ -5,7 +5,7 @@ import useAuth from '../../../hooks/useAuth';
 import './Login.css'
 const Login = () => {
     const { logInUsingGoogle } = useAuth();
-
+    // redirect user login
     const history = useHistory()
     const location = useLocation()
     const redirect_url = location.state?.from || '/'
@@ -16,7 +16,7 @@ const Login = () => {
                 history.push(redirect_url)
             })
     }
-
+    // google log in form
     return (
         <>
             <div className="login-container my-3">

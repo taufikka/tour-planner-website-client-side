@@ -2,6 +2,7 @@ import React from 'react';
 import image from '../../../images/hotel.jpg'
 
 const StayPlace = () => {
+    // client stay section
     return (
         <div className='container my-4'>
             <h2 className='mt-5 mb-3'>Where to stay in Singapore  <i className="fas fa-hotel"></i></h2>

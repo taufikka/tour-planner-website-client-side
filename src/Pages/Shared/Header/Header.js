@@ -12,7 +12,7 @@ const Header = () => {
         color: "white"
     }
 
-
+    // header navbar section
     return (
         <>
             <Navbar bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg">
@@ -21,11 +21,6 @@ const Header = () => {
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <NavLink activeStyle={activeStyle} className='nav' to="/home">Home</NavLink>
-                        {/* 
-                        <NavLink activeStyle={activeStyle} className='nav' to="/allOrders">Manage All Services</NavLink>
-
-                        <NavLink activeStyle={activeStyle} className='nav' to="/addService">Add New Service</NavLink> */}
-
                         {
                             user?.email ? <div>
 

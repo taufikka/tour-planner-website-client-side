@@ -7,12 +7,13 @@ const MyOrder = () => {
 
     const { user } = useAuth()
 
+    /* take input and send to server */
     useEffect(() => {
         fetch('https://nameless-journey-96860.herokuapp.com/orders')
             .then(res => res.json())
             .then(data => setOrders(data))
     }, [deleted])
-
+    // delete service by user
     const handleDeleteOrder = (id) => {
         const proceed = window.confirm('Are you confirm to cancel booking?');
         if (proceed) {
@@ -30,7 +31,7 @@ const MyOrder = () => {
                 })
         }
     }
-
+    // service by user
     return (
         <div className='container my-4 login-container'>
             <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2'>

@@ -5,6 +5,7 @@ import Services from '../Services/Services';
 import StayPlace from '../StayPlace/StayPlace';
 
 const Home = () => {
+    // main home page components
     return (
         <div>
             <Banner></Banner>

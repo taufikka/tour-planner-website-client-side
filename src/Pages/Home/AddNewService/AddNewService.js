@@ -17,7 +17,7 @@ const AddNewService = () => {
             })
     };
 
-
+    // add new service form
     return (
         <div className='login-container my-5'>
             <h2 className='text-center fw-bolder'>Add New Service</h2>

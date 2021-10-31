@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css'
 const Footer = () => {
+    // footer section
     return (
         <div className='bg-dark text-white'>
             <div className="row footer">
