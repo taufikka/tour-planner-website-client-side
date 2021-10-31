@@ -5,36 +5,3 @@
     height: 70vh;
     padding-top: 30px;
 }
-
-/* @media only screen and (min-width:1200px) {
-    .login-form{
-        width: 30%;
-    }
-}
-
-
-@media only screen and (min-width:1200px) {
-    .custom-style{
-        width: 40%;
-    }
-}
-@media only screen and (min-width:900px) and (max-width:1199px) {
-    .custom-style{
-        width: 60%;
-    }
-}
-@media only screen and (min-width:700px) and (max-width:899px) {
-    .custom-style{
-        width: 80%;
-    }
-}
-@media only screen and (min-width:500px) and (max-width:699px) {
-    .custom-style{
-        width: 90%;
-    }
-}
-@media only screen and (min-width:300px) and (max-width:499px) {
-    .custom-style{
-        width: 96%;
-    }
-} */
