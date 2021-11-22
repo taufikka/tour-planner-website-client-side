@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css'
 const Footer = () => {
-    // footer section
+    // footer section here
     return (
         <div className='bg-dark text-white'>
             <div className="row footer">
